@@ -28,27 +28,10 @@ This part involves:
 - Training the model
 - Assessing model accuracy
 
-### Part 3: Scikit-learn Implementation
-
-This part includes:
-
-- Designing a machine learning pipeline using scikit-learn
-- Preprocessing the EMNIST dataset
-- Building a feedforward neural network
-- Training the model
-- Testing the model accuracy
-
-## Evaluation
-
-The performance of the three implementations is assessed based on:
-
-- Model accuracy
-- Generalization capability
-- Computational time
 
 ## Results
 
-The results of the three implementations are documented in the results directory, showcasing:
+The results of the two implementations are documented in the results directory, showcasing:
 
 - Confusion matrices
 - Model accuracy
@@ -56,4 +39,4 @@ The results of the three implementations are documented in the results directory
 
 ## Conclusion
 
-This project offers a comparative analysis of TensorFlow, PyTorch, and scikit-learn for handwritten letter recognition. The findings indicate that TensorFlow and PyTorch outperform scikit-learn in terms of accuracy and generalization.
+This project offers a comparative analysis of TensorFlow and PyTorch for handwritten letter recognition.
