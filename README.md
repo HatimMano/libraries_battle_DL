@@ -1,18 +1,18 @@
-**Handwritten Letter Recognition
+#Handwritten Letter Recognition
 
 This project demonstrates the implementation of a deep learning model for recognizing handwritten letters using the tensorflow, PyTorch, and scikit-learn libraries.
 
 The goal of this project is to train a neural network to recognize letters in images and output the corresponding character.
 
-**Problem Statement
+#Problem Statement
 
 The objective is to design and train a deep learning model that can recognize handwritten letters based on the widely used EMNIST dataset.
 
-**Getting Started
+#Getting Started
 
 The project is implemented in three parts using the three libraries.
 
-*Part 1: TensorFlow Implementation
+##Part 1: TensorFlow Implementation
 
 The TensorFlow implementation involves:
 
@@ -21,7 +21,7 @@ Implementing a Convolutional Neural Network (CNN)
 Training the model
 Testing the model accuracy
 
-*Part 2: PyTorch Implementation
+##Part 2: PyTorch Implementation
 
 The PyTorch implementation involves:
 
@@ -30,7 +30,7 @@ Implementing a Convolutional Neural Network (CNN)
 Training the model
 Testing the model accuracy
 
-*Part 3: Scikit-learn Implementation
+##Part 3: Scikit-learn Implementation
 
 Implementing a machine learning pipeline using scikit-learn
 Preprocessing the EMNIST dataset
@@ -38,7 +38,7 @@ Implementing a feedforward neural network
 Training the model
 Testing the model accuracy
 
-*Evaluation
+##Evaluation
 
 The performance of the three implementations is evaluated based on:
 
