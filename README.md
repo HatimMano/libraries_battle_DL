@@ -1,58 +1,59 @@
-#Handwritten Letter Recognition
+# Handwritten Letter Recognition
 
-This project demonstrates the implementation of a deep learning model for recognizing handwritten letters using the tensorflow, PyTorch, and scikit-learn libraries.
+This project showcases the implementation of a deep learning model aimed at recognizing handwritten letters utilizing the TensorFlow, PyTorch, and scikit-learn libraries.
 
-The goal of this project is to train a neural network to recognize letters in images and output the corresponding character.
+## Problem Statement
 
-#Problem Statement
+The objective is to develop and train a deep learning model capable of accurately recognizing handwritten letters using the popular EMNIST dataset.
 
-The objective is to design and train a deep learning model that can recognize handwritten letters based on the widely used EMNIST dataset.
+## Getting Started
 
-#Getting Started
+The project is divided into three parts, each utilizing a different library:
 
-The project is implemented in three parts using the three libraries.
+### Part 1: TensorFlow Implementation
 
-##Part 1: TensorFlow Implementation
+This part involves:
 
-The TensorFlow implementation involves:
+- Preprocessing the EMNIST dataset
+- Creating a Convolutional Neural Network (CNN)
+- Training the model
+- Evaluating model accuracy
 
-Preprocessing the EMNIST dataset
-Implementing a Convolutional Neural Network (CNN)
-Training the model
-Testing the model accuracy
+### Part 2: PyTorch Implementation
 
-##Part 2: PyTorch Implementation
+This part involves:
 
-The PyTorch implementation involves:
+- Preprocessing the EMNIST dataset
+- Implementing a Convolutional Neural Network (CNN)
+- Training the model
+- Assessing model accuracy
 
-Preprocessing the EMNIST dataset
-Implementing a Convolutional Neural Network (CNN)
-Training the model
-Testing the model accuracy
+### Part 3: Scikit-learn Implementation
 
-##Part 3: Scikit-learn Implementation
+This part includes:
 
-Implementing a machine learning pipeline using scikit-learn
-Preprocessing the EMNIST dataset
-Implementing a feedforward neural network
-Training the model
-Testing the model accuracy
+- Designing a machine learning pipeline using scikit-learn
+- Preprocessing the EMNIST dataset
+- Building a feedforward neural network
+- Training the model
+- Testing the model accuracy
 
-##Evaluation
+## Evaluation
 
-The performance of the three implementations is evaluated based on:
+The performance of the three implementations is assessed based on:
 
-Model accuracy
-Model generalization
-Computational time
-Results
+- Model accuracy
+- Generalization capability
+- Computational time
 
-The results of the three implementations are presented in the results directory, showing the following:
+## Results
 
-Confusion matrices
-Model accuracy
-Training and testing loss
-Conclusion
+The results of the three implementations are documented in the results directory, showcasing:
 
-This project provides a comparative analysis of three deep learning libraries, TensorFlow, PyTorch, and scikit-learn, for solving the problem of handwritten letter recognition. The results demonstrate that TensorFlow and PyTorch perform better than scikit-learn in terms of accuracy and generalization.
+- Confusion matrices
+- Model accuracy
+- Training and testing loss
 
+## Conclusion
+
+This project offers a comparative analysis of TensorFlow, PyTorch, and scikit-learn for handwritten letter recognition. The findings indicate that TensorFlow and PyTorch outperform scikit-learn in terms of accuracy and generalization.
