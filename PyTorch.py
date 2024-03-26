@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import torch.nn.functional as F
 
 # Define the model architecture
 class Net(nn.Module):
@@ -28,7 +29,7 @@ for epoch in range(5):
     for data, target in zip(train_data, train_labels):
         optimizer.zero_grad()
         output = model(data)
-        loss = criterion(output, target)
+        loss = criterion(output, target.unsqueeze(0))  # Adding unsqueeze to match shape
         loss.backward()
         optimizer.step()
 
@@ -38,12 +39,13 @@ correct = 0
 with torch.no_grad():
     for data, target in zip(test_data, test_labels):
         output = model(data)
-        loss = criterion(output, target)
+        loss = criterion(output, target.unsqueeze(0))  # Adding unsqueeze to match shape
         test_loss += loss.item()
         _, predicted = torch.max(output, 1)
         if predicted == target:
             correct += 1
 
 test_loss /= len(test_data)
+test_accuracy = correct / len(test_data)  # Calculate accuracy
 
-print(f'Test accuracy: {1
+print(f'Test accuracy: {test_accuracy * 100:.2f}%')
