@@ -1,6 +1,6 @@
 # Handwritten Letter Recognition
 
-In this project, we delve into the world of recognizing handwritten letters using deep learning models implemented with TensorFlow, PyTorch, and scikit-learn libraries.
+In this project, we embark on a journey to recognize handwritten letters using deep learning models implemented with PyTorch and scikit-learn libraries.
 
 ## The Challenge
 
@@ -8,23 +8,15 @@ Our mission is clear: develop and train a robust deep learning model to accurate
 
 ## Let's Get Started
 
-Our journey unfolds in three parts, each harnessing the power of a different library:
+Our journey unfolds in two parts, each harnessing the power of a different library:
 
-### Part 1: TensorFlow Takes the Stage
+### Part 1: PyTorch Takes the Lead
 
 Here, we:
 - Prepare the EMNIST dataset
-- Construct a Convolutional Neural Network (CNN)
+- Craft a Convolutional Neural Network (CNN) using PyTorch
 - Train our model
 - Measure its accuracy
-
-### Part 2: PyTorch Joins the Fray
-
-In this chapter, we:
-- Prepare the EMNIST dataset once more
-- Craft a Convolutional Neural Network (CNN) using PyTorch
-- Train the model
-- Gauge its accuracy
 
 ## Unveiling the Results
 
@@ -35,4 +27,4 @@ Behold! Our findings are encapsulated in the results directory, showcasing:
 
 ## The Verdict
 
-This project serves as a platform for a comparative analysis between TensorFlow and PyTorch in the realm of handwritten letter recognition.
+This project serves as a platform for exploring the capabilities of PyTorch in the realm of handwritten letter recognition.
